@@ -45,7 +45,7 @@ ui <- shinyUI(
         
         tabPanel("Tab 2",
                  
-                 uiOutput("markdown")
+                 includeMarkdown("test_rmd.md")
                  
         )
     )
